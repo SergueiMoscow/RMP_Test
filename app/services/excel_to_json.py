@@ -22,12 +22,20 @@ class ExcelToJson:
     def parse(
         self,
     ) -> 'ExcelToJson':
+        """
+        Читает excel файл, запоминает у себя в pd_data и возвращает свой instance
+        :return:
+        """
         if not os.path.exists(self.excel_filename):
             raise FileNotFoundError(f'File {self.excel_filename} not found')
         self.pd_data = pd.read_excel(self.excel_filename)
         return self
 
     def _check_out_file_name(self) -> str:
+        """
+        Проверка существования целевого файла и разрешения на его перезапись (если он есть)
+        :return:
+        """
         # Если бы это не было тестовым заданием, то нужно было бы добавить проверку наличия директории
         # и её создание в случае отсутствия.
         if not os.path.exists(self.json_filename) or self.overwrite:

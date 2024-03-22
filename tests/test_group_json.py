@@ -1,10 +1,7 @@
 import os
 import tempfile
 
-import pytest
-
 from app.RMP_Test import RMP_Test
-from app.services.utils import change_extension
 from tests.conftest import XLS_FILE, COUNT_ROWS, GROUPED_JSON
 
 

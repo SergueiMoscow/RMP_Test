@@ -1,6 +1,5 @@
 import json
 from itertools import groupby
-from operator import itemgetter
 from typing import List
 
 from app.schemas import Stock, InStock

@@ -4,8 +4,6 @@ import tempfile
 
 import pandas as pd
 import pytest
-import xlrd
-import xlutils
 
 from app.settings import BASE_DIR
 

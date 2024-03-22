@@ -6,7 +6,7 @@ from tests.conftest import GROUPED_JSON
 
 def test_generate_report(temp_file):
     RMP_Test.generate_report(GROUPED_JSON, temp_file.name)
-    # для получения текстового файла в files
+    # для получения текстового файла в /files
     # RMP_Test.generate_report(GROUPED_JSON, change_extension(GROUPED_JSON, 'txt'))
     with open(temp_file.name, 'r') as file:
         content = file.read()

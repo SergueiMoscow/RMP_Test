@@ -1,6 +1,4 @@
 import pytest
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
 from datetime import date, timedelta
 from app.services.utils import get_date_difference, days_declension
 
