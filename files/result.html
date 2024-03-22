@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+table {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+th {
+    text-decoration: none;
+    border-collapse:collapse;
+    font-size: 14px;
+    text-align:center;
+    background-color:#e8e8e8;
+    vertical-align: top;
+}
+td {
+    font-size:13px;
+    color:#333;
+}
+td, th {
+    white-space:pre-wrap;
+    line-height: 13px;
+    border: 1px solid #333;
+    padding: .5em 1em;
+}
+.category {
+    padding-left: 2em;
+    font-weight: bold;
+    font-size: medium;
+}
+.in-stock {
+    padding-left: 5em;
+    font-weight: bold;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.old-order {
+    background-color: #AACCCC;
+}</style>
+  </head>
+  <body>
+    <div class="container">
+      <table>
+        <tr>
+          <th>Название</th>
+          <th>Дата создания</th>
+          <th>Дата посл. заказа</th>
+          <th>Стоимость</th>
+          <th>В наличии на складе</th>
+        </tr>
+        <tr>
+          <td colspan="5" class="category">Прихожая</td>
+        </tr>
+        <tr>
+          <td colspan="5" class="in-stock">В наличии</td>
+        </tr>
+        <tr>
+          <td class="old-order left">Банкетка А2</td>
+          <td class="old-order left">15 июн. 2022</td>
+          <td class="old-order left">11 фев. 2023</td>
+          <td class="old-order right">8200</td>
+          <td class="old-order right">1</td>
+        </tr>
+        <tr>
+          <td colspan="5" class="in-stock">Нет в наличии</td>
+        </tr>
+        <tr>
+          <td class="old-order left">Банкетка A1</td>
+          <td class="old-order left">15 июн. 2022</td>
+          <td class="old-order left">23 янв. 2023</td>
+          <td class="old-order right">6000</td>
+          <td class="old-order right">0</td>
+        </tr>
+        <tr>
+          <td colspan="5" class="category">Столы</td>
+        </tr>
+        <tr>
+          <td colspan="5" class="in-stock">В наличии</td>
+        </tr>
+        <tr>
+          <td class="td left">Стол 0001Б</td>
+          <td class="td left">15 фев. 2022</td>
+          <td class="td left">23 фев. 2024</td>
+          <td class="td right">16500</td>
+          <td class="td right">9</td>
+        </tr>
+        <tr>
+          <td class="old-order left">Стол 0001В</td>
+          <td class="old-order left">15 фев. 2022</td>
+          <td class="old-order left">03 май 2023</td>
+          <td class="old-order right">18000</td>
+          <td class="old-order right">23</td>
+        </tr>
+        <tr>
+          <td class="old-order left">Стол 0001А</td>
+          <td class="old-order left">15 фев. 2022</td>
+          <td class="old-order left">12 апр. 2023</td>
+          <td class="old-order right">15000</td>
+          <td class="old-order right">15</td>
+        </tr>
+        <tr>
+          <td colspan="5" class="in-stock">Нет в наличии</td>
+        </tr>
+        <tr>
+          <td class="old-order left">Стол 0001Г</td>
+          <td class="old-order left">15 фев. 2023</td>
+          <td class="old-order left">10 июн. 2023</td>
+          <td class="old-order right">19000</td>
+          <td class="old-order right">0</td>
+        </tr>
+        <tr>
+          <td colspan="5" class="category">Стулья</td>
+        </tr>
+        <tr>
+          <td colspan="5" class="in-stock">В наличии</td>
+        </tr>
+        <tr>
+          <td class="old-order left">Стул 0001Б</td>
+          <td class="old-order left">15 фев. 2022</td>
+          <td class="old-order left">23 июн. 2023</td>
+          <td class="old-order right">7500</td>
+          <td class="old-order right">13</td>
+        </tr>
+        <tr>
+          <td class="old-order left">Стул 0001А</td>
+          <td class="old-order left">15 фев. 2022</td>
+          <td class="old-order left">10 июн. 2023</td>
+          <td class="old-order right">7000</td>
+          <td class="old-order right">10</td>
+        </tr>
+        <tr>
+          <td colspan="5" class="in-stock">Нет в наличии</td>
+        </tr>
+        <tr>
+          <td class="old-order left">Стул 0001В</td>
+          <td class="old-order left">15 фев. 2022</td>
+          <td class="old-order left">02 июн. 2023</td>
+          <td class="old-order right">9000</td>
+          <td class="old-order right">0</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

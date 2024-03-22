@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Стол 0001А",
+        "category": "Столы",
+        "date_added": "2022-02-15 00:00:00",
+        "date_ordered": "2023-04-12 00:00:00",
+        "price": 15000,
+        "height": 80,
+        "width": 150,
+        "length": 50,
+        "stock": 15,
+        "is_in_stock": "В наличии"
+    },
+    {
+        "name": "Стол 0001Б",
+        "category": "Столы",
+        "date_added": "2022-02-15 00:00:00",
+        "date_ordered": "2024-02-23 00:00:00",
+        "price": 16500,
+        "height": 80,
+        "width": 170,
+        "length": 50,
+        "stock": 9,
+        "is_in_stock": "В наличии"
+    },
+    {
+        "name": "Стол 0001В",
+        "category": "Столы",
+        "date_added": "2022-02-15 00:00:00",
+        "date_ordered": "2023-05-03 00:00:00",
+        "price": 18000,
+        "height": 80,
+        "width": 190,
+        "length": 50,
+        "stock": 23,
+        "is_in_stock": "В наличии"
+    },
+    {
+        "name": "Стол 0001Г",
+        "category": "Столы",
+        "date_added": "2023-02-15 00:00:00",
+        "date_ordered": "2023-06-10 00:00:00",
+        "price": 19000,
+        "height": 80,
+        "width": 200,
+        "length": 50,
+        "stock": 0,
+        "is_in_stock": "Нет в наличии"
+    },
+    {
+        "name": "Стул 0001А",
+        "category": "Стулья",
+        "date_added": "2022-02-15 00:00:00",
+        "date_ordered": "2023-06-10 00:00:00",
+        "price": 7000,
+        "height": 100,
+        "width": 50,
+        "length": 50,
+        "stock": 10,
+        "is_in_stock": "В наличии"
+    },
+    {
+        "name": "Стул 0001Б",
+        "category": "Стулья",
+        "date_added": "2022-02-15 00:00:00",
+        "date_ordered": "2023-06-23 00:00:00",
+        "price": 7500,
+        "height": 100,
+        "width": 50,
+        "length": 50,
+        "stock": 13,
+        "is_in_stock": "В наличии"
+    },
+    {
+        "name": "Стул 0001В",
+        "category": "Стулья",
+        "date_added": "2022-02-15 00:00:00",
+        "date_ordered": "2023-06-02 00:00:00",
+        "price": 9000,
+        "height": 120,
+        "width": 50,
+        "length": 50,
+        "stock": 0,
+        "is_in_stock": "Нет в наличии"
+    },
+    {
+        "name": "Банкетка A1",
+        "category": "Прихожая",
+        "date_added": "2022-06-15 00:00:00",
+        "date_ordered": "2023-01-23 00:00:00",
+        "price": 6000,
+        "height": 60,
+        "width": 100,
+        "length": 40,
+        "stock": 0,
+        "is_in_stock": "Нет в наличии"
+    },
+    {
+        "name": "Банкетка А2",
+        "category": "Прихожая",
+        "date_added": "2022-06-15 00:00:00",
+        "date_ordered": "2023-02-11 00:00:00",
+        "price": 8200,
+        "height": 60,
+        "width": 120,
+        "length": 45,
+        "stock": 1,
+        "is_in_stock": "В наличии"
+    }
+]
