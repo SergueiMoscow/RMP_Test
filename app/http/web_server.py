@@ -1,7 +1,6 @@
 import json
 import tempfile
 from http.server import BaseHTTPRequestHandler, HTTPServer
-from urllib.parse import parse_qs
 import cgi
 
 from app import settings

@@ -16,7 +16,9 @@ Github: `https://github.com/SergueiMoscow/RMP_Test`
 
 `pytest` - для тестирования
 
-`openpyxl` - для получения невалидного XLS файла для тестирования 
+`openpyxl` - для получения невалидного XLS файла для тестирования
+
+`yattag` - для генерации html
 
 #### Запуск тестов: `make test`
 #### Запуск web сервера: `make run`
