@@ -63,9 +63,8 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
     def step3_post(self):
         json_string = self.get_form_field('json_string')
         prepared_data = convert_grouped_to_stock(json.loads(json_string))
-        content = generate_stock_report(prepared_data)
         email_text = generate_text_report(prepared_data).replace('\n', '<br/>')
-        content = content.replace('</table>', f'</table><p>{email_text}</p>')
+        content = generate_stock_report(prepared_data, block_after_table=email_text)
         self.response(content)
 
     def do_GET(self):
