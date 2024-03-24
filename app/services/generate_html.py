@@ -13,8 +13,6 @@ FIELDS = {
     'stock': {'text': 'В наличии на складе', 'class': 'right'},
 }
 
-# doc, tag, text = Doc().tagtext()
-
 
 def get_doc_tag_text():
     doc, tag, text = Doc().tagtext()
